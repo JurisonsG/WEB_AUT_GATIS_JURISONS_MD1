@@ -6,10 +6,7 @@ describe('DemoQA selectable grid', () => {
 
     it('select even numbers and validate highlights', () => {
 
-      // Open https://demoqa.com/selectable
       SelectGridPage.open();
-
-      // Click on Grid tab
       SelectGridPage.gridTabButton.click();
 
       // Click on "Two", "Four", "Six", "Eight"

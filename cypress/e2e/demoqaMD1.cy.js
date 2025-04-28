@@ -1,6 +1,6 @@
-import { SelectGridPage
-    
- } from "../PageObjects.js/SelectGridPage";
+import { SelectGridPage} from "../PageObjects.js/SelectGridPage";
+
+
 describe('DemoQA selectable grid', () => {
   context('Testing grid items selection', () => {
 
